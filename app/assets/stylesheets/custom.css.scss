@@ -43,7 +43,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.7em;
+  font-size: 1.2em;
   letter-spacing: -1px;
   margin-bottom: 30px;
   text-align: center;
@@ -84,19 +84,19 @@ footer {
   color: $grayLight;
   a {
     color: $gray;
-    &:hover { 
+	&:hover { 
       color: $grayDarker;
     }
-  }  
+  }
   small { 
     float: left; 
   }
   ul {
     float: right;
     list-style: none;
-    li {
+	li {
       float: left;
       margin-left: 10px;
-    }
+	}
   }
 }

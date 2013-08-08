@@ -64,5 +64,8 @@ module SampleApp
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    
+    # Listing 5.4
+    # config.assets.precomplie += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
